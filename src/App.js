@@ -7,15 +7,6 @@ import "./App.css";
 import searchIcon from "./search.svg";
 const API_URL = "http://www.omdbapi.com?apikey=a854dc15";
 
-const movie1 = {
-  Title: "The Batman",
-  Year: "2022",
-  imdbID: "tt1877830",
-  Type: "movie",
-  Poster:
-    "https://m.media-amazon.com/images/M/MV5BOGE2NWUwMDItMjA4Yi00N2Y3LWJjMzEtMDJjZTMzZTdlZGE5XkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_SX300.jpg",
-};
-
 const App = () => {
   const [movies, setMovies] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
