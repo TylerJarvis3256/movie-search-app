@@ -23,14 +23,14 @@ A responsive React.js application that integrates with the **OMDB API** to provi
 ## 📂 Project Structure
 ```
 root
-├── public/                   # Static assets
+├── public/
 ├── src/
-│   ├── components/           # Reusable components
-│   ├── styles/               # Component-specific styles
-│   └── App.js                # Entry point for the React app
-├── .gitignore                # Git ignored files
-├── package.json              # Dependencies and scripts
-└── README.md                 # Project documentation
+│   ├── components/
+│   ├── styles/
+│   └── App.js
+├── .gitignore
+├── package.json
+└── README.md
 ```
 
 ---
